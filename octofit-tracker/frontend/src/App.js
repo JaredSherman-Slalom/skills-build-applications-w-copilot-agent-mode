@@ -7,7 +7,7 @@ import Teams from './components/Teams';
 import Users from './components/Users';
 import Workouts from './components/Workouts';
 
-import logo from '../public/octofitapp-small.png';
+// Image is now referenced from public path
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <div className="container mt-4">
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-4 rounded">
           <Link className="navbar-brand d-flex align-items-center" to="/">
-            <img src={logo} alt="Octofit Logo" style={{height: '40px', marginRight: '12px'}} />
+            <img src="/octofitapp-small.png" alt="Octofit Logo" style={{height: '40px', marginRight: '12px'}} />
             <span style={{fontWeight: 'bold', fontSize: '1.5rem'}}>Octofit Tracker</span>
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
