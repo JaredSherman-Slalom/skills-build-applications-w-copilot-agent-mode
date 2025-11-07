@@ -1,0 +1,77 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar-brand span {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.btn-outline-light {
+  border-color: #ffd700;
+  color: #ffd700;
+}
+.btn-outline-light:hover {
+  background-color: #ffd700;
+  color: #007bff;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.card-header {
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.table {
+  background: #f7fafc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table th {
+  background: #007bff;
+  color: #fff;
+}
+.table td {
+  background: #e9f5ff;
+  color: #222;
+}
+
+h1, h2, h4 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ffd700;
+}
